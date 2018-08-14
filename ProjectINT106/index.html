@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Oswald" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+<head>
+	<title>BabeKery&Bistro</title>
+</head>
+
+<body>
+
+<div id="lan">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="first.html">
+  	BabeKery&Bistro
+  	<img src="picture/icon.png" width="30" height="30" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item activee">
+        <a class="nav-link" href="index.html">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="dessertbakery.html">Category</a>
+      </li>
+ 
+      <li class="nav-item">
+        <a class="nav-link disabled" href="contact.html">About US</a>
+      </li>
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</div>
+
+
+	<div id="slide" >
+   <img class="mySlides" src="picture/intro.jpg"  >
+   <img class="mySlides" src="picture/intro1.jpg"  >
+   </div>
+
+
+
+
+<!--   <img class="mySlides" src="background2.jpg" height="550" width="1530">
+  <img class="mySlides" src="background3.jpg" height="550" width="1530"> -->
+	
+
+	<div id="featured-content">
+		<div id="column1">
+			<center><h2>Dessert Bakery</h2></center>
+			<center><img src="picture/bake.jpg" width="250" height="150" alt="" /></center>
+			<p>รายการเมนูขนมเค้กของทางร้าน. ถ้าลูกค้าท่านใดสนใจ.สามารถกดเข้าไปดูรายละเอียดได้. Let's Enjoy</p>
+			<p class="button"><a href="dessertbakery.html">Let's Checked</a></p>
+		</div>
+		<div id="column2">
+			<center><h2>Order&Deliver</h2></center>
+			<center><p><img src="picture/coffee.jpg" width="250" height="150" alt="" /></p></center>
+			<p>ถ้าทางลูกค้าท่านใดสนใจสามารถกดเข้าไปกรอกฟอร์มเเล้วสั่งสอนค้ากับทางร้านได้เลย. ทางร้านจะจัดส่งถึงมือลูกค้าทุกท่าน</p>
+			
+			<p class="button"><a href="Preorder.html">Let's Order</a></p>
+		</div>
+		<div id="column3">
+			<h2>Location</h2>
+			<p><img src="picture/local.jpg" width="250" height="150" alt="" /></p>
+			<p>รายละเอียด สถานที่ตั้งของทางร้าน. สามารถกดเข้าไปดูเพื่อจะสะดวกต่อการเดินทาง. หากท่านใดสงสัยสามารถติดต่อสอบถามได้</p>
+			<p class="button"><a href="contact.html">Let's Contact</a></p>
+		</div>
+	</div>
+
+
+
+<div id="footer">
+	<center><p>&copy; Untitled. All rights reserved. Images by <a href="https://www.pexels.com/">Pexels</a>. </p></center>
+</div>
+</body>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+
+</script>
+
+
+
+</html>

@@ -1,0 +1,159 @@
+body{
+  background-color: #f7cac9;
+    font-family: 'Fjalla One', sans-serif;
+}
+#detail{
+  background-color: #f3e6ba;
+}
+#detail-1{
+  background-color: #f3e6ba;
+}
+#lan{
+  font-family: 'Abel', sans-serif;
+}
+#thai{
+  font-family: 'Trirong', serif;
+  font-size: 20px;
+}
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+#header-wrapper{
+  background-image: url(picture/background4.jpg);
+  height: 430px;
+}
+#order{
+  border: 1px solid black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 20PX;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-color: #FFFFCC;
+  border-style: dotted;
+  border-width: thick;
+  border-radius: 5px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#menu{
+    padding: 10px 10px 10px 10px ;
+  border: 1px solid black;
+  border-style: solid;
+  border-radius: 5px;
+  margin-right: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#menu-1{
+  padding: 10px 10px 10px 10px ;
+  border: 1px solid black;
+  border-style: solid;
+  border-radius: 5px;
+  margin-right: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#menu-2{
+  padding: 10px 10px 10px 10px ;
+  border: 1px solid black;
+  border-style: solid;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+#footer {
+  height: 140px;
+  padding-top: 50px;
+  background-image: url(picture/background4.jpg);
+}
+#contact{
+  padding: 10px 10px 10px 10px ;
+  border: 1px solid black;
+  border-style: solid;
+  border-radius: 5px;
+  margin-right: 20px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+.button a {
+  display: block;
+  background-color: #f7cac9;
+  width: 95px;
+  height: 30px;
+  margin-left: 30px;
+  border-radius: 3px;
+  color: black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-decoration: none;
+  text-align: center;
+  padding-top: 5px;
+  font-family: 'Fjalla One', sans-serif;
+
+}
